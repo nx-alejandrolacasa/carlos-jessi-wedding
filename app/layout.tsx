@@ -1,7 +1,7 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Monoton } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const monoton = Monoton({ subsets: ['latin'], weight: ['400'] })
 
 export const metadata = {
   title: 'Carlos & Jessi',
@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${monoton.className}`}>{children}</body>
     </html>
   )
 }
