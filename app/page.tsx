@@ -21,7 +21,7 @@ export default function Home() {
       {texts.map((text, index) => (
         <p
           key={index}
-          className={`flex items-center justify-center px-8 text-9xl h-screen ${
+          className={`flex items-center justify-center px-8 h-screen ${
             text.length > 4 ? 'text-3xl md:text-5xl' : 'text-7xl md:text-9xl'
           }`}
         >
@@ -39,6 +39,12 @@ export default function Home() {
           poster="/image.jpg"
           src="/video.mp4"
         />
+        <p className="flex items-center justify-center p-8 text-7xl md:text-9xl">
+          🤵🏻‍♂️ 👰🏻‍♀️
+        </p>
+        <p className="flex items-center justify-center p-8 text-7xl md:text-9xl">
+          🎉
+        </p>
       </div>
     </main>
   )
