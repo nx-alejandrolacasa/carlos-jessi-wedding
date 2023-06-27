@@ -21,7 +21,7 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </head>
-      <body className={`${fontFamily.className}`}>{children}</body>
+      <body className={`${fontFamily.className} text-white`}>{children}</body>
     </html>
   )
 }
